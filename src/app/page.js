@@ -5,11 +5,11 @@ import Student from "./student/page";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
+    <div className=''>
       <main>
         <Register/>
         <Student/>
       </main>
-    </div>
+    </div> 
   );
 }

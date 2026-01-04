@@ -9,7 +9,6 @@ const RegisterForm = () => {
     if (type === "checkbox") {
       setData((prev) => {
         const hobbies = prev.hobbies || [];
-
         return {
           ...prev,
           hobbies: checked
@@ -70,7 +69,7 @@ const RegisterForm = () => {
             <option value="Please Select Country">Please Select Country</option>
             <option value="ind">Ind</option>
             <option value="pak">Pak</option>
-            <option value="aus">Aus</option>
+            <option value="aus">Aus</option> 
             <option value="ban">Ban</option>
           </select>
         </p>
