@@ -11,7 +11,7 @@ export default function Home() {
   const fnGetStudent = async () => {
     try {
       const res = await axios.get(
-        "http://localhost:2020/std/std-get-reg"
+        "https://student-server-three.vercel.app/std/std-get-reg"
       );
       setUsers(res.data);
     } catch {

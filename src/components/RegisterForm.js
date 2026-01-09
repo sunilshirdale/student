@@ -27,7 +27,7 @@ const RegisterForm = ({ fnGetStudent }) => {
     e.preventDefault();
     try {
       const result = await axios.post(
-        "http://localhost:2020/std/std-reg",
+        "https://student-server-three.vercel.app/std/std-reg",
         data
       );
 
